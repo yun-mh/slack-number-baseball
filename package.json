@@ -1,0 +1,14 @@
+{
+  "name": "slack-number-baseball",
+  "version": "1.0.0",
+  "description": "Slack number baseball game for hackathon",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/bolt": "^3.11.1",
+    "dotenv": "^16.0.1"
+  },
+  "scripts": {
+    "start": "node ./src/index.js"
+  }
+}
